@@ -49,7 +49,7 @@ async def handle_chat_message(message: types.Message):
             await message.delete()
             
             # Ссылка на канал (замените на реальную ссылку, если ID числовой)
-            channel_link = "https://t.me/cyberqeln_uz" # Ссылка для приватных каналов или юзернейм
+            channel_link = "https://t.me/cyberqelnuz" # Ссылка для приватных каналов или юзернейм
             
             kb = InlineKeyboardMarkup(inline_keyboard=[
                 [InlineKeyboardButton(text="📢 Подписаться на канал", url=channel_link)]
